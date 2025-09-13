@@ -1,0 +1,20 @@
+# netlify.toml
+
+[build]
+  base    = "/"                     # Root of your project
+  publish = ".next"                 # Directory to publish (Next.js build output)
+  command = "npm run build"         # Build command
+  install = "pnpm install --no-frozen-lockfile"  # Install deps without frozen lockfile
+
+[build.environment]
+  NODE_VERSION = "22"               # Match your local Node version
+  NPM_VERSION  = "10"               # Optional, aligns with your npm version
+
+# Optional: redirect all routes to index.html or Next.js serverless functions
+# For Next.js on Netlify using Netlify Next.js plugin, you usually don't need this
+# But if using static export, uncomment and adjust:
+#[[redirects]]
+#  from = "/*"
+#  to = "/index.html"
+#  status = 200
+
