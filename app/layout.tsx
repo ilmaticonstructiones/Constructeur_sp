@@ -11,45 +11,52 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "ILMATI_Construcciones - Professional Construction & Renovation Services in Spain",
+  metadataBase: new URL("https://www.trestoresypladur.es"),
+  title: "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
   description:
-    "Expert construction and renovation services across Spain. Specializing in kitchen remodeling, bathroom renovations, flooring installation, interior painting, electrical work, and plumbing services. 15+ years of experience, 500+ completed projects. Get your free quote today.",
+    "ILMATI Construcciones ofrece servicios profesionales de construcción, reformas integrales, pladur y tresores en toda España. Reformas de cocinas y baños, instalación de suelos, pintura interior, electricidad y fontanería. Con más de 15 años de experiencia y más de 500 proyectos realizados, garantizamos calidad, confianza y resultados a medida. Solicite su presupuesto gratuito hoy mismo.",
   keywords: [
-    "construction Spain",
-    "renovation services Madrid",
-    "kitchen remodeling Barcelona",
-    "bathroom renovation Valencia",
-    "flooring installation Spain",
-    "interior painting services",
-    "electrical work Madrid",
-    "plumbing services Spain",
-    "home renovation contractors",
-    "construction company Spain",
-    "ILMATI_Construcciones",
-    "professional contractors Spain"
+    "construcción España",
+    "servicios de reformas Madrid",
+    "pladur España",
+    "instalación de pladur Madrid",
+    "trabajos de pladur Barcelona",
+    "tresores España",
+    "instalación de tresores Madrid",
+    "reformas de cocinas Barcelona",
+    "reformas de baños Valencia",
+    "instalación de suelos España",
+    "servicios de pintura interior",
+    "trabajos de electricidad Madrid",
+    "servicios de fontanería España",
+    "contratistas de reformas",
+    "empresa de construcción España",
+    "ILMATI Construcciones",
+    "contratistas profesionales España",
   ].join(", "),
-  authors: [{ name: "ILMATI_Construcciones", url: "https://ILMATI_Construcciones.es" }],
-  creator: "ILMATI_Construcciones",
-  publisher: "ILMATI_Construcciones",
+  authors: [{ name: "ILMATI Construcciones", url: "https://www.trestoresypladur.es/" }],
+  creator: "ILMATI Construcciones",
+  publisher: "ILMATI Construcciones",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   verification: {
     google: "your-google-verification-code",
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    alternateLocale: ["es_ES"],
-    title: "ILMATI_Construcciones - Professional Construction & Renovation Services in Spain",
+    locale: "es_ES",
+    alternateLocale: ["en_US"],
+    title:
+      "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
     description:
-      "Expert construction and renovation services across Spain. Transform your space with quality craftsmanship. 15+ years experience, 500+ completed projects.",
-    siteName: "ILMATI_Construcciones",
-    url: "https://ILMATI_Construcciones.es",
+      "Expertos en construcción, reformas, pladur y tresores en España. Más de 15 años de experiencia y 500 proyectos completados con éxito. Calidad y garantía en cada trabajo.",
+    siteName: "Trestores y Pladur",
+    url: "https://www.trestoresypladur.es/",
     images: [
       {
         url: "/modern-construction-site-with-workers-renovating-a.png",
         width: 1200,
         height: 630,
-        alt: "Professional construction team working on home renovation",
+        alt: "Equipo profesional especializado en pladur, tresores y reformas integrales",
       },
     ],
   },
@@ -57,19 +64,20 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ILMATI_Construcciones_es",
     creator: "@ILMATI_Construcciones_es",
-    title: "ILMATI_Construcciones - Professional Construction & Renovation Services in Spain",
+    title:
+      "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
     description:
-      "Expert construction and renovation services across Spain. Transform your space with quality craftsmanship.",
+      "Especialistas en construcción, reformas, pladur y tresores en España. Más de 15 años de experiencia ofreciendo confianza y calidad.",
     images: ["/modern-construction-site-with-workers-renovating-a.png"],
   },
   alternates: {
-    canonical: "https://ILMATI_Construcciones.es",
+    canonical: "https://www.trestoresypladur.es/",
     languages: {
-      "en-US": "/en",
-      "es-ES": "/es",
+      "es-ES": "https://www.trestoresypladur.es/es",
+      "en-US": "https://www.trestoresypladur.es/en",
     },
   },
-  category: "Construction & Renovation Services",
+  category: "Servicios de Construcción, Reformas, Pladur y Tresores",
 }
 
 export default function RootLayout({
@@ -79,10 +87,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={dmSans.variable}>
-      <body className="font-sans antialiased">
-        {children}
-
-      </body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   )
 }
