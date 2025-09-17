@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       title: "Fabricación e instalación de trasteros de Pladur a medida",
       subtitle:
-        "Transformamos espacios vacíos en soluciones de almacenamiento seguras, rentables y eficientes. Nuestros trasteros personalizados en pladur y metal aprovechan cada rincón para crear espacios prácticos que crecen contigo.",
+        "Empresa de construcción y reformas integrales: obra civil, trasteros, pintura profesional y rehabilitación. Presupuesto gratis y sin compromiso",
       phone: "Llamar Ahora",
     },
     // Services
@@ -52,7 +52,7 @@ export const translations = {
       info: {
         address: "C. Occidente, 19242 Hiendelaencina, Guadalajara, España",
         phone: "+34 643 516 352",
-        email: "ilmaticonstructiones@gmail.com",
+        email: "ilmaticonstrucciones@gmail.com",
         hours: "Lun-Sáb: 8:00 AM - 6:00 PM",
       },
     },

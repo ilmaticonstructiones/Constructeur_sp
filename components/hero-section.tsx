@@ -1,13 +1,12 @@
 "use client"
 import { Button } from "@/components/ui/button"
 import { useTranslation } from "@/hooks/use-translation"
-import { Phone, ArrowDown } from "lucide-react"
+import { Phone } from "lucide-react"
 
 export function HeroSection() {
   const { t } = useTranslation()
   
   const handlePhoneClick = () => {
-    // Try to make a phone call first
     window.location.href = "tel:+34643516352"
   }
   
@@ -29,7 +28,7 @@ export function HeroSection() {
         <div className="absolute inset-0 z-0">
           <img
             src="/modern-construction-site-with-workers-renovating-a.png"
-            alt="Construction and renovation work"
+            alt="Empresa de construcción y reformas integrales en España"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-primary/70" />
@@ -59,86 +58,75 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Before/After Section 1 - Roof and Plasterboard Work */}
+      {/* Section 1 - Pladur */}
       <div className="bg-background py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-              Tabiquerías, techos y murales en pladur – Servicio profesional en toda España
+              Tabiquerías, Techos y Murales en Pladur – Instalación Profesional en España
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Before Image */}
-              <div className="space-y-4">
-                <div className="relative overflow-hidden rounded-lg shadow-lg">
-                  <img
-                    src="/hero3.jpg"
-                    alt="Antes de la instalación de pladur"
-                    className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src="/hero3.jpg"
+                  alt="Antes de la instalación de techos y murales en pladur"
+                  className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
+                />
               </div>
               
               {/* After Image */}
-              <div className="space-y-4">
-                <div className="relative overflow-hidden rounded-lg shadow-lg">
-                  <img
-                    src="/hero4.jpg"
-                    alt="Después de la instalación de pladur"
-                    className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
-                  />
-
-                </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src="/hero4.jpg"
+                  alt="Después de la instalación de techos y murales en pladur"
+                  className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
+                />
               </div>
             </div>
             
             {/* Description Text */}
             <div className="mt-8 text-center">
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Se realizan tabiquerías, techos y murales en pladur. Trabajamos por toda España ofreciendo soluciones profesionales en construcción en seco.
+                Realizamos tabiquerías, techos y murales en pladur en toda España, 
+                ofreciendo soluciones profesionales y personalizadas en construcción en seco.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Before/After Section 2 - Storage Division */}
+      {/* Section 2 - Trasteros */}
       <div className="bg-muted/30 py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-            Fabricación de trasteros y montaje profesional
+              Fabricación de Trasteros en Pladur y Metal – Reformas y Almacenamiento Profesional
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Before Image */}
-              <div className="space-y-4 md:order-2">
-                <div className="relative overflow-hidden rounded-lg shadow-lg">
-                  <img
-                    src="/hero1.jpg"
-                    alt="Antes de la división de trasteros"
-                    className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg md:order-2">
+                <img
+                  src="/hero1.jpg"
+                  alt="Espacio vacío antes de la construcción de trasteros en pladur y metal"
+                  className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
+                />
               </div>
               
               {/* After Image */}
-              <div className="space-y-4 md:order-1">
-                <div className="relative overflow-hidden rounded-lg shadow-lg">
-                  <img
-                    src="/hero2.jpg"
-                    alt="Después de la división de trasteros"
-                    className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
-                  />
-
-                </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg md:order-1">
+                <img
+                  src="/hero2.jpg"
+                  alt="Trasteros terminados en pladur y metal listos para usar"
+                  className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
+                />
               </div>
             </div>
             
             {/* Description Text */}
-            <div className="mt-8 text-center">
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Fabricación de trasteros y montaje profesional. Creamos espacios de almacenamiento funcionales y bien organizados.
-              </p>
-            </div>
+            <p className="mt-8 text-lg text-muted-foreground text-center max-w-3xl mx-auto">
+              Empresa de construcción y reformas integrales: obra civil, trasteros, pintura profesional y rehabilitación. Presupuesto gratis y sin compromiso.
+            </p>
           </div>
         </div>
       </div>
