@@ -13,9 +13,9 @@ export default function HomePage() {
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
     "description": "Empresa especializada en construcción, reformas, pladur y tresores en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
-    "url": "https://www.trestoresypladur.es/",
+    "url": "https://www.trasterosypladur.es/",
     "telephone": "+34 643 516 352",
-    "email": "contacto@trestoresypladur.es",
+    "email": "contacto@trasterosypladur.es",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "C. Occidente",
@@ -31,13 +31,13 @@ export default function HomePage() {
     },
     "openingHours": "Mo-Fr 08:00-18:00",
     "priceRange": "€€",
-    "image": "https://www.trestoresypladur.es/modern-construction-site-with-workers-renovating-a.png",
-    "logo": "https://www.trestoresypladur.es/ilmati-logo.png",
+    "image": "https://www.trasterosypladur.es/ilmati-logo.png",
+    "logo": "https://www.trasterosypladur.es/ilmati-logo.png",
     "sameAs": [
       "https://www.facebook.com/ilmaticonstrucciones",
       "https://www.instagram.com/ilmaticonstrucciones",
       "https://www.linkedin.com/company/ilmaticonstrucciones",
-      "https://www.google.com/maps/place/?q=place_id:YOUR_PLACE_ID"
+      "https://www.google.com/maps/place/?q=place_id:ChIJC1NBLU17Qw0Rx1xHN9rS5R8"
     ],
     "serviceArea": {
       "@type": "Country",
@@ -141,9 +141,9 @@ export default function HomePage() {
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
     "description": "Professional company specialized in construction, renovations, plasterboard (pladur), and tresores across Spain. Over 15 years of experience and more than 500 successful projects.",
-    "url": "https://www.trestoresypladur.es/en",
+    "url": "https://www.trasterosypladur.es/en",
     "telephone": "+34 643 516 352",
-    "email": "contact@trestoresypladur.es",
+    "email": "contact@trasterosypladur.es",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "C. Occidente",
@@ -159,8 +159,8 @@ export default function HomePage() {
     },
     "openingHours": "Mo-Fr 08:00-18:00",
     "priceRange": "€€",
-    "image": "https://www.trestoresypladur.es/modern-construction-site-with-workers-renovating-a.png",
-    "logo": "https://www.trestoresypladur.es/ilmati-logo.png",
+    "image": "https://www.trasterosypladur.es/ilmati-logo.png",
+    "logo": "https://www.trasterosypladur.es/ilmati-logo.png",
     "sameAs": [
       "https://www.facebook.com/ilmaticonstrucciones",
       "https://www.instagram.com/ilmaticonstrucciones",

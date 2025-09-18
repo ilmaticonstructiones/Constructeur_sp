@@ -19,7 +19,13 @@ export function Footer() {
     "Servicios de fontanería",
   ]
 
-  const company = [t("nav.about"), t("nav.reviews"), t("nav.contact")]
+  const company = [
+    { name: t("nav.about"), href: "about" },
+    { name: t("nav.services"), href: "services" },
+    { name: t("nav.reviews"), href: "reviews" },
+    { name: t("nav.contact"), href: "contact" },
+  ]
+
 
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -87,10 +93,10 @@ export function Footer() {
               {company.map((item, index) => (
                 <li key={index}>
                   <Link
-                    href={`#${item.toLowerCase()}`}
+                    href={`#${item.href.toLowerCase()}`}
                     className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
-                    {item}
+                    {item.name}
                   </Link>
                 </li>
               ))}

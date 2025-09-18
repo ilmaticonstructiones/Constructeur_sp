@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { DM_Sans } from "next/font/google"
 import "./globals.css"
 // import { Analytics } from "@vercel/analytics/next"
+import { notFound } from "next/navigation";
+
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -12,7 +14,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.trestoresypladur.es"),
+  metadataBase: new URL("https://www.trasterosypladur.es"),
   title: "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
   description:
     "ILMATI Construcciones ofrece servicios profesionales de construcción, reformas integrales, pladur y tresores en toda España. Reformas de cocinas y baños, instalación de suelos, pintura interior, electricidad y fontanería. Con más de 15 años de experiencia y más de 500 proyectos realizados, garantizamos calidad, confianza y resultados a medida. Solicite su presupuesto gratuito hoy mismo.",
@@ -35,7 +37,7 @@ export const metadata: Metadata = {
     "ILMATI Construcciones",
     "contratistas profesionales España",
   ].join(", "),
-  authors: [{ name: "ILMATI Construcciones", url: "https://www.trestoresypladur.es/" }],
+  authors: [{ name: "ILMATI Construcciones", url: "https://www.trasterosypladur.es/" }],
   creator: "ILMATI Construcciones",
   publisher: "ILMATI Construcciones",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
@@ -51,7 +53,7 @@ export const metadata: Metadata = {
     description:
       "Expertos en construcción, reformas, pladur y tresores en España. Más de 15 años de experiencia y 500 proyectos completados con éxito. Calidad y garantía en cada trabajo.",
     siteName: "Trestores y Pladur",
-    url: "https://www.trestoresypladur.es/",
+    url: "https://www.trasterosypladur.es/",
     images: [
       {
         url: "/modern-construction-site-with-workers-renovating-a.png",
@@ -72,10 +74,9 @@ export const metadata: Metadata = {
     images: ["/modern-construction-site-with-workers-renovating-a.png"],
   },
   alternates: {
-    canonical: "https://www.trestoresypladur.es/",
+    canonical: "https://www.trasterosypladur.es/",
     languages: {
-      "es-ES": "https://www.trestoresypladur.es/es",
-      "en-US": "https://www.trestoresypladur.es/en",
+      "es-ES": "https://www.trasterosypladur.es/",
     },
   },
   category: "Servicios de Construcción, Reformas, Pladur y Tresores",

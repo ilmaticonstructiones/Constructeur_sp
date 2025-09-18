@@ -4,72 +4,53 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://constructpro.es/</loc>
+    <loc>https://trasterosypladur.es/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trasterosypladur.es"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trasterosypladur.es/es"/>
   </url>
   
   <!-- Services Main Page -->
   <url>
-    <loc>https://constructpro.es/services/</loc>
+    <loc>https://trasterosypladur.es/services/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/services"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trasterosypladur.es/services"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trasterosypladur.es/es/services"/>
   </url>
   
-  <!-- Kitchen Renovation Service -->
-  <url>
-    <loc>https://constructpro.es/services/kitchen-renovation/</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/services/kitchen-renovation"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/services/kitchen-renovation"/>
-  </url>
-  
-  <!-- Bathroom Remodeling Service -->
-  <url>
-    <loc>https://constructpro.es/services/bathroom-remodeling/</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/services/bathroom-remodeling"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/services/bathroom-remodeling"/>
-  </url>
   
   <!-- About Page -->
   <url>
-    <loc>https://constructpro.es/about/</loc>
+    <loc>https://trasterosypladur.es/about/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trasterosypladur.es/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trasterosypladur.es/es/about"/>
   </url>
   
   <!-- Contact Page -->
   <url>
-    <loc>https://constructpro.es/contact/</loc>
+    <loc>https://trasterosypladur.es/contact/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trasterosypladur.es/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trasterosypladur.es/es/contact"/>
   </url>
   
   <!-- Reviews Page -->
   <url>
-    <loc>https://constructpro.es/reviews/</loc>
+    <loc>https://trasterosypladur.es/reviews/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://constructpro.es/en/reviews"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://constructpro.es/es/reviews"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trasterosypladur.es/reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trasterosypladur.es/es/reviews"/>
   </url>
   
 </urlset>

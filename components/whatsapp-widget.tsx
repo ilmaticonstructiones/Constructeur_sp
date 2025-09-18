@@ -43,7 +43,7 @@ export const WhatsAppWidget = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: "ILMATI Construcciones",
-          url: "https://www.trestoresypladur.es",
+          url: "https://www.trasterosypladur.es",
           telephone: "+34 643 516 352",
           sameAs: ["https://wa.me/34643516352"],
           areaServed: "España",
