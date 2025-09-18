@@ -32,7 +32,7 @@ export default function NotFound() {
 
       {/* Button */}
       <a
-        href="/"
+        href="/#home"
         className="mt-8 px-8 py-3 bg-red-500 hover:bg-red-600 text-white rounded-full font-bold shadow-md transition"
       >
         Volver al inicio

@@ -6,6 +6,7 @@ import "./globals.css"
 import { notFound } from "next/navigation";
 
 
+
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -14,10 +15,13 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://trasterosypladur.es",
+  },
   metadataBase: new URL("https://www.trasterosypladur.es"),
   title: "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
   description:
-    "ILMATI Construcciones ofrece servicios profesionales de construcción, reformas integrales, pladur y tresores en toda España. Reformas de cocinas y baños, instalación de suelos, pintura interior, electricidad y fontanería. Con más de 15 años de experiencia y más de 500 proyectos realizados, garantizamos calidad, confianza y resultados a medida. Solicite su presupuesto gratuito hoy mismo.",
+    "ILMATI Construcciones ofrece servicios profesionales de construcción, reformas integrales, pladur y tresores en toda España. Reformas de cocinas y baños, instalación de suelos, pintura interior, electricidad y fontanería. Con más de 15 años de experiencia y más de 500 proyectos realizados, garantizamos calidad, confianza y resultados a medida. Solicite su presupuesto gratuito hoy mismo. | Servicios de construcción, instalación de trasteros y pladur en España.",
   keywords: [
     "construcción España",
     "servicios de reformas Madrid",
@@ -91,6 +95,29 @@ export default function RootLayout({
     <html lang="es" className={dmSans.variable}>
       <body className="font-sans antialiased">{children}
         {/* <Analytics /> */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Ilmati Construcciones",
+              url: "https://trasterosypladur.es",
+              telephone: "+34 643 516 352",
+              email: "ilmaticonstrucciones@gmail.com",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "C. Occidente",
+                postalCode: "19242",
+                addressLocality: "Hiendelaencina",
+                addressRegion: "Guadalajara",
+                addressCountry: "España",
+              },
+              serviceType: ["Construcción", "Pladur", "Trasteros"],
+            }),
+          }}
+        />
+
       </body>
     </html>
   )
