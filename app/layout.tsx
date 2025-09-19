@@ -5,8 +5,6 @@ import "./globals.css"
 // import { Analytics } from "@vercel/analytics/next"
 import { notFound } from "next/navigation";
 
-
-
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -16,7 +14,10 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://trasterosypladur.es",
+    canonical: "https://www.trasterosypladur.es",
+    languages: {
+      "es-ES": "https://www.trasterosypladur.es/",
+    },
   },
   metadataBase: new URL("https://www.trasterosypladur.es"),
   title: "ILMATI Construcciones - Construcción, Reformas, Pladur y Tresores en España",
@@ -77,12 +78,6 @@ export const metadata: Metadata = {
       "Especialistas en construcción, reformas, pladur y tresores en España. Más de 15 años de experiencia ofreciendo confianza y calidad.",
     images: ["/modern-construction-site-with-workers-renovating-a.png"],
   },
-  alternates: {
-    canonical: "https://www.trasterosypladur.es/",
-    languages: {
-      "es-ES": "https://www.trasterosypladur.es/",
-    },
-  },
   category: "Servicios de Construcción, Reformas, Pladur y Tresores",
 }
 
@@ -91,10 +86,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  // You can use `notFound` if needed here for error handling, like:
+  // if (!children) notFound();
+
   return (
     <html lang="es" className={dmSans.variable}>
-      <body className="font-sans antialiased">{children}
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17574863860"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17574863860');
+          `}
+        </script>
+      </head>
+      <body className="font-sans antialiased">
+        {children}
         {/* <Analytics /> */}
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -117,7 +128,6 @@ export default function RootLayout({
             }),
           }}
         />
-
       </body>
     </html>
   )
