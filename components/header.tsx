@@ -28,7 +28,7 @@ export function Header() {
             <Link href="#home" className="flex items-center space-x-3">
               <img 
                 src="/ilmati-logo.png" 
-                alt="ILMATI Construcciones - Expertos en Pladur y Tresores en Guadalajara" 
+                alt="ILMATI Construcciones - Expertos en Pladur y trasteros en Guadalajara" 
                 className="h-10 w-auto"
               />
               <span className="text-xl font-bold text-primary hidden sm:block">

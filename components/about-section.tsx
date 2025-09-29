@@ -36,7 +36,7 @@ export function AboutSection() {
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8 text-lg">
               En <strong>ILMATI Construcciones</strong> somos especialistas en 
-              <strong> construcción, reformas integrales, instalación de pladur y tresores </strong> 
+              <strong> construcción, reformas integrales, instalación de pladur y trasteros </strong> 
               en toda España. Con más de 15 años de experiencia y más de 500 proyectos 
               finalizados con éxito, ofrecemos <em>profesionalidad, garantía y resultados 
               adaptados</em> a las necesidades de cada cliente.

@@ -12,7 +12,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Empresa especializada en construcción, reformas, pladur y tresores en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
+    "description": "Empresa especializada en construcción, reformas, pladur y trasteros en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
     "url": "https://www.trasterosypladur.es/",
     "telephone": "+34 643 516 352",
     "email": "contacto@trasterosypladur.es",
@@ -59,8 +59,8 @@ export default function HomePage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Tresores",
-            "description": "Servicios especializados en tresores con soluciones duraderas y estéticas."
+            "name": "trasteros",
+            "description": "Servicios especializados en trasteros con soluciones duraderas y estéticas."
           }
         },
         {
@@ -136,12 +136,12 @@ export default function HomePage() {
     ]
   }
 
-  const structuredDataEN = {
+  const structuredDataEs = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Professional company specialized in construction, renovations, plasterboard (pladur), and tresores across Spain. Over 15 years of experience and more than 500 successful projects.",
-    "url": "https://www.trasterosypladur.es/en",
+    "description": "Professional company specialized in construction, renovations, plasterboard (pladur), and trasteros across Spain. Over 15 years of experience and more than 500 successful projects.",
+    "url": "https://www.trasterosypladur.es",
     "telephone": "+34 643 516 352",
     "email": "contact@trasterosypladur.es",
     "address": {
@@ -176,7 +176,7 @@ export default function HomePage() {
       "name": "Construction and Renovation Services",
       "itemListElement": [
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plasterboard (Pladur)", "description": "Professional plasterboard installation for interiors, ceilings, and partitions with high-quality finishes." } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tresores", "description": "Specialized tresores solutions with durable and aesthetic finishes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "trasteros", "description": "Specialized trasteros solutions with durable and aesthetic finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Renovation", "description": "Modern kitchen designs with premium materials and expert installation." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Complete bathroom transformations with contemporary fixtures and finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flooring Installation", "description": "Professional installation of ceramic tiles, hardwood, and laminate flooring." } },
@@ -216,7 +216,7 @@ export default function HomePage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataEN) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataEs) }}
       />
       <main className="min-h-screen">
         <Header />

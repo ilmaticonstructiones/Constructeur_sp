@@ -10,7 +10,7 @@ export function Footer() {
   // Lista optimizada de servicios principales en español (SEO)
   const services = [
     "Pladur y tabiquería seca",
-    "Tresores y sistemas de seguridad",
+    "trasteros y sistemas de seguridad",
     "Reformas de cocinas",
     "Reformas de baños",
     "Instalación de suelos",
@@ -26,6 +26,11 @@ export function Footer() {
     { name: t("nav.contact"), href: "contact" },
   ]
 
+  const resources = [
+    { name: "Trasteros y Pladur", href: "/trasteros_pladur" },
+    { name: "Pintura y Reformas", href: "/pintura_reformas" },
+    { name: "Blog y Guías", href: "/blog" },
+  ]
 
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -86,14 +91,29 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Empresa */}
+          {/* Empresa y Recursos combinados */}
           <div>
             <h4 className="text-lg font-semibold mb-4">{t("footer.company")}</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-2 mb-6">
               {company.map((item, index) => (
                 <li key={index}>
                   <Link
                     href={`#${item.href.toLowerCase()}`}
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* Recursos adicionales */}
+            <h4 className="text-lg font-semibold mb-4">Recursos</h4>
+            <ul className="space-y-2">
+              {resources.map((item, index) => (
+                <li key={index}>
+                  <Link
+                    href={item.href}
                     className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     {item.name}
@@ -117,7 +137,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © 2025 ILMATI Construcciones. {t("footer.rights")} | Expertos en Pladur y Tresores en España
+            © 2025 ILMATI Construcciones. {t("footer.rights")} | Expertos en Pladur y trasteros en España
           </p>
         </div>
       </div>

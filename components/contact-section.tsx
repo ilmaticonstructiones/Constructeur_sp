@@ -82,7 +82,7 @@ export function ContactSection() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Ilmati Construcciones - Pladur y Tresores",
+          "name": "Ilmati Construcciones - Pladur y trasteros",
           "image": "https://www.trestoresypladur.es/ilmati-logo.png",
           "@id": "https://www.trestoresypladur.es",
           "url": "https://www.trestoresypladur.es",
@@ -108,10 +108,10 @@ export function ContactSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            {t("contact.title")} – Pladur y Tresores en Guadalajara
+            {t("contact.title")} – Pladur y trasteros en Guadalajara
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            {t("contact.subtitle")} | Expertos en construcción, instalación de pladur y servicios de tresores en Hiendelaencina, Guadalajara.
+            {t("contact.subtitle")} | Expertos en construcción, instalación de pladur y servicios de trasteros en Hiendelaencina, Guadalajara.
           </p>
         </div>
 
@@ -206,7 +206,7 @@ export function ContactSection() {
                 />
               </div>
               <p className="text-sm text-muted-foreground mt-2 text-center">
-                Ilmati Construcciones – Expertos en pladur y tresores en Guadalajara
+                Ilmati Construcciones – Expertos en pladur y trasteros en Guadalajara
               </p>
             </div>
           </aside>
