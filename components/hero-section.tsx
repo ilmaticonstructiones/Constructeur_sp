@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { useTranslation } from "@/hooks/use-translation"
 import { Phone } from "lucide-react"
+import { OptimizedImage } from "@/components/optimized-image"
 
 export function HeroSection() {
   const { t } = useTranslation()
@@ -113,7 +114,7 @@ export function HeroSection() {
                 />
               </div>
               
-              {/* After Image */}
+                {/* After Image */}
               <div className="relative overflow-hidden rounded-lg shadow-lg md:order-1">
                 <img
                   src="/hero2.jpg"

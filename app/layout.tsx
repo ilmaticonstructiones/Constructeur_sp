@@ -10,6 +10,8 @@ const dmSans = DM_Sans({
   display: "swap",
   variable: "--font-dm-sans",
   weight: ["400", "500", "600", "700"],
+  preload: true,
+  adjustFontFallback: true,
 })
 
 export const metadata: Metadata = {
@@ -20,65 +22,131 @@ export const metadata: Metadata = {
     },
   },
   metadataBase: new URL("https://www.trasterosypladur.es"),
-  title: "ILMATI Construcciones - Construcción, Reformas, Pladur y trasteros en España",
+  title: {
+    default: "ILMATI Construcciones - Reformas, Pladur y Trasteros en España",
+    template: "%s | ILMATI Construcciones"
+  },
   description:
-    "ILMATI Construcciones ofrece servicios profesionales de construcción, reformas integrales, pladur y trasteros en toda España. Reformas de cocinas y baños, instalación de suelos, pintura interior, electricidad y fontanería. Con más de 15 años de experiencia y más de 500 proyectos realizados, garantizamos calidad, confianza y resultados a medida. Solicite su presupuesto gratuito hoy mismo. | Servicios de construcción, instalación de trasteros y pladur en España.",
+    "✅ Especialistas en reformas integrales, instalación de pladur y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia y 500 proyectos realizados. Presupuesto gratuito y garantía de calidad.",
   keywords: [
-    "construcción España",
-    "servicios de reformas Madrid",
-    "pladur España",
-    "instalación de pladur Madrid",
-    "trabajos de pladur Barcelona",
-    "trasteros España",
-    "instalación de trasteros Madrid",
-    "reformas de cocinas Barcelona",
-    "reformas de baños Valencia",
-    "instalación de suelos España",
-    "servicios de pintura interior",
-    "trabajos de electricidad Madrid",
-    "servicios de fontanería España",
-    "contratistas de reformas",
-    "empresa de construcción España",
+    "reformas integrales Madrid",
+    "instalación pladur Guadalajara",
+    "trasteros a medida España",
+    "construcción profesional",
+    "reformas de baños Madrid",
+    "reformas de cocinas Guadalajara",
+    "pladur acústico",
+    "falsos techos pladur",
+    "tabiques pladur",
+    "empresa construcción España",
     "ILMATI Construcciones",
-    "contratistas profesionales España",
+    "contratistas profesionales Madrid",
+    "pintura profesional",
+    "fontanería reformas",
+    "electricidad obras",
   ].join(", "),
   authors: [{ name: "ILMATI Construcciones", url: "https://www.trasterosypladur.es/" }],
   creator: "ILMATI Construcciones",
   publisher: "ILMATI Construcciones",
-  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   verification: {
     google: "your-google-verification-code",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
-    alternateLocale: ["es_ES"],
-    title:
-      "ILMATI Construcciones - Construcción, Reformas, Pladur y trasteros en España",
-    description:
-      "Expertos en construcción, reformas, pladur y trasteros en España. Más de 15 años de experiencia y 500 proyectos completados con éxito. Calidad y garantía en cada trabajo.",
-    siteName: "Trestores y Pladur",
     url: "https://www.trasterosypladur.es/",
+    siteName: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
+    title: "ILMATI Construcciones - Especialistas en Reformas, Pladur y Trasteros",
+    description: "Expertos en reformas integrales, instalación de pladur y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia.",
     images: [
       {
-        url: "/modern-construction-site-with-workers-renovating-a.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Equipo profesional especializado en pladur, trasteros y reformas integrales",
+        alt: "ILMATI Construcciones - Especialistas en reformas, pladur y trasteros",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@ILMATI_Construcciones_es",
-    creator: "@ILMATI_Construcciones_es",
-    title:
-      "ILMATI Construcciones - Construcción, Reformas, Pladur y trasteros en España",
-    description:
-      "Especialistas en construcción, reformas, pladur y trasteros en España. Más de 15 años de experiencia ofreciendo confianza y calidad.",
-    images: ["/modern-construction-site-with-workers-renovating-a.png"],
+    site: "@ILMATI_Construcciones",
+    creator: "@ILMATI_Construcciones",
+    title: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
+    description: "Especialistas en reformas integrales, instalación de pladur y trasteros a medida en España",
+    images: ["/twitter-image.jpg"],
   },
-  category: "Servicios de Construcción, Reformas, Pladur y trasteros",
+  category: "Construcción y Reformas",
+  other: {
+    "google-site-verification": "your-google-verification-code",
+  },
+}
+
+// Comprehensive structured data for better SEO
+const organizationStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.trasterosypladur.es/#organization",
+  name: "ILMATI Construcciones",
+  url: "https://www.trasterosypladur.es",
+  logo: "https://www.trasterosypladur.es/logo.png",
+  description: "Empresa especializada en reformas integrales, instalación de pladur y construcción de trasteros a medida en España",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "C. Occidente",
+    addressLocality: "Hiendelaencina",
+    addressRegion: "Guadalajara",
+    postalCode: "19242",
+    addressCountry: "ES"
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+34-643-516-352",
+    contactType: "customer service",
+    areaServed: "ES",
+    availableLanguage: "es"
+  },
+  sameAs: [
+    "https://www.facebook.com/ilmaticonstrucciones",
+    "https://www.instagram.com/ilmaticonstrucciones"
+  ],
+  areaServed: {
+    "@type": "GeoCircle",
+    geoMidpoint: {
+      "@type": "GeoCoordinates",
+      latitude: 40.4168,
+      longitude: -3.7038
+    },
+    geoRadius: "200000"
+  }
+}
+
+const websiteStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.trasterosypladur.es/#website",
+  url: "https://www.trasterosypladur.es",
+  name: "ILMATI Construcciones",
+  description: "Especialistas en reformas, pladur y trasteros en España",
+  publisher: {
+    "@id": "https://www.trasterosypladur.es/#organization"
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://www.trasterosypladur.es/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
 }
 
 export default function RootLayout({
@@ -86,35 +154,153 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  // You can use `notFound` if needed here for error handling, like:
-  // if (!children) notFound();
-
   return (
-    <html lang="es" className={dmSans.variable}>
+    <html lang="es" className={`${dmSans.variable} scroll-smooth`}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17574863860"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-17574863860');
-          `}
-        </script>
+        {/* Preload critical resources */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        
+        {/* Preload critical images */}
+        <link rel="preload" href="/" as="image" />
+        
+        {/* Favicon and app icons */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+        
+        {/* Theme color */}
+        <meta name="theme-color" content="#164e63" />
+        <meta name="msapplication-TileColor" content="#164e63" />
+        
+        {/* Viewport optimization */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        
+        {/* Google Tag Manager with optimized loading */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','AW-17574863860');
+            `,
+          }}
+        />
+        
+        {/* Google Analytics with performance optimization */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17574863860"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17574863860', {
+                page_title: document.title,
+                page_location: window.location.href,
+                transport_type: 'beacon',
+                send_page_view: false
+              });
+            `,
+          }}
+        />
+
+        {/* Critical CSS for above-the-fold content */}
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              /* Critical above-the-fold styles */
+              .min-h-screen { min-height: 100vh; }
+              .bg-white { background-color: #ffffff; }
+              .bg-orange-500 { background-color: #f97316; }
+              .text-white { color: #ffffff; }
+              .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+              .px-4 { padding-left: 1rem; padding-right: 1rem; }
+              .max-w-4xl { max-width: 56rem; }
+              .mx-auto { margin-left: auto; margin-right: auto; }
+              .text-center { text-align: center; }
+              .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+              .font-bold { font-weight: 700; }
+              .mb-4 { margin-bottom: 1rem; }
+              .sr-only { 
+                position: absolute; 
+                width: 1px; 
+                height: 1px; 
+                padding: 0; 
+                margin: -1px; 
+                overflow: hidden; 
+                clip: rect(0,0,0,0); 
+                white-space: nowrap; 
+                border: 0; 
+              }
+              
+              /* Font loading optimization */
+              .font-sans {
+                font-family: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+              }
+              
+              /* Performance optimizations */
+              * {
+                box-sizing: border-box;
+              }
+              
+              html {
+                scroll-behavior: smooth;
+              }
+              
+              body {
+                text-rendering: optimizeSpeed;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
+            `,
+          }}
+        />
       </head>
       <body className="font-sans antialiased">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=AW-17574863860"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        
         {children}
         {/* <Analytics /> */}
         
+        {/* Comprehensive Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationStructuredData),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteStructuredData),
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Ilmati Construcciones",
-              url: "https://trasterosypladur.es",
-              telephone: "+34 643 516 352",
+              "@id": "https://www.trasterosypladur.es/#local-business",
+              name: "ILMATI Construcciones",
+              url: "https://www.trasterosypladur.es",
+              telephone: "+34-643-516-352",
               email: "ilmaticonstrucciones@gmail.com",
               address: {
                 "@type": "PostalAddress",
@@ -122,10 +308,64 @@ export default function RootLayout({
                 postalCode: "19242",
                 addressLocality: "Hiendelaencina",
                 addressRegion: "Guadalajara",
-                addressCountry: "España",
+                addressCountry: "ES",
               },
-              serviceType: ["Construcción", "Pladur", "Trasteros"],
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 41.0843,
+                longitude: -2.6709
+              },
+              areaServed: ["Madrid", "Guadalajara", "Castilla-La Mancha", "Comunidad de Madrid"],
+              serviceType: [
+                "Reformas integrales",
+                "Instalación de pladur", 
+                "Construcción de trasteros",
+                "Pintura profesional",
+                "Fontanería y electricidad"
+              ],
+              openingHours: "Mo-Su 07:00-22:00",
+              priceRange: "€€",
+              description: "Empresa especializada en reformas integrales, instalación de pladur y construcción de trasteros a medida en España",
             }),
+          }}
+        />
+        
+        {/* Performance monitoring script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Monitor Core Web Vitals
+              if ('PerformanceObserver' in window) {
+                const observer = new PerformanceObserver((list) => {
+                  for (const entry of list.getEntries()) {
+                    if (entry.entryType === 'navigation') {
+                      console.log('Page Load Time:', entry.loadEventEnd - entry.fetchStart);
+                    }
+                  }
+                });
+                observer.observe({ entryTypes: ['navigation', 'paint', 'largest-contentful-paint'] });
+              }
+              
+              // Lazy loading for non-critical resources
+              document.addEventListener('DOMContentLoaded', function() {
+                const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+                if ('IntersectionObserver' in window) {
+                  const lazyImageObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                      if (entry.isIntersecting) {
+                        const lazyImage = entry.target;
+                        lazyImage.src = lazyImage.dataset.src;
+                        lazyImage.classList.remove('lazy');
+                        lazyImageObserver.unobserve(lazyImage);
+                      }
+                    });
+                  });
+                  lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                  });
+                }
+              });
+            `,
           }}
         />
       </body>

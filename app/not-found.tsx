@@ -1,42 +1,61 @@
-import React from "react";
+// app/not-found.tsx
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Home, Phone, ArrowLeft } from "lucide-react"
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-yellow-400 to-red-500 text-gray-900 font-sans px-6">
-      {/* Big 404 */}
-      <div className="text-8xl font-extrabold drop-shadow-lg mb-4">404</div>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center px-4">
+      <div className="max-w-md w-full text-center">
+        {/* Logo */}
+        <div className="mb-8">
+          <img
+            src="/ilmati-logo.png"
+            alt="ILMATI Construcciones"
+            className="h-16 w-auto mx-auto mb-4"
+          />
+          <h1 className="text-2xl font-bold text-gray-900">ILMATI CONSTRUCCIONES</h1>
+        </div>
 
-      {/* Subtitle */}
-      <div className="text-2xl md:text-3xl font-semibold mb-8">
-        Página en construcción 🚧
+        {/* 404 Content */}
+        <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
+          <div className="text-6xl font-bold text-primary mb-4">404</div>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Página No Encontrada</h2>
+          <p className="text-gray-600 mb-8">
+            Lo sentimos, la página que buscas no existe. Puede que haya sido movida o eliminada.
+          </p>
+
+          {/* Quick Actions */}
+          <div className="space-y-4">
+            <Button asChild className="w-full bg-primary hover:bg-primary/90">
+              <Link href="/" className="flex items-center justify-center gap-2">
+                <Home className="h-4 w-4" />
+                Volver al Inicio
+              </Link>
+            </Button>
+            
+            <Button asChild variant="outline" className="w-full">
+              <Link href="#contact" className="flex items-center justify-center gap-2">
+                <Phone className="h-4 w-4" />
+                Contactar Ahora
+              </Link>
+            </Button>
+          </div>
+        </div>
+
+        {/* Helpful Links */}
+        <div className="text-center">
+          <p className="text-gray-600 mb-4">¿Necesita ayuda inmediata con su proyecto?</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:+34643516352" className="text-primary hover:underline font-medium">
+              +34 643 516 352
+            </a>
+            <a href="mailto:ilmaticonstrucciones@gmail.com" className="text-primary hover:underline font-medium">
+              ilmaticonstrucciones@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
-
-      {/* Card */}
-      <div className="bg-yellow-50 rounded-2xl shadow-lg p-6 flex items-center gap-4 max-w-lg">
-        {/* Hammer Icon */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-          className="w-14 h-14 text-red-500"
-        >
-          <path d="M2 21l1-1 5.5-5.5 1.5 1.5L4.5 21H2zm9.707-9.707l1.5 1.5-7.5 7.5H4.5v-1.207l7.207-7.793zM21 5.414l-2.121 2.121-2.829-2.829L18.171 2.585a2 2 0 012.829 2.829zM6.343 13.657l8.486-8.486 2.829 2.829-8.486 8.486-2.829-2.829z" />
-        </svg>
-
-        {/* Text */}
-        <span className="text-lg text-gray-700 leading-relaxed">
-          Lo sentimos, la página que buscas aún no está disponible.  
-          <br />¡Nuestro equipo está trabajando duro para construirla! 🏗️
-        </span>
-      </div>
-
-      {/* Button */}
-      <a
-        href="/#home"
-        className="mt-8 px-8 py-3 bg-red-500 hover:bg-red-600 text-white rounded-full font-bold shadow-md transition"
-      >
-        Volver al inicio
-      </a>
     </div>
-  );
+  )
 }
