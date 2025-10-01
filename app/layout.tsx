@@ -23,11 +23,12 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://www.trasterosypladur.es"),
   title: {
-    default: "ILMATI Construcciones - Reformas, Pladur y Trasteros en España",
+    default: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
     template: "%s | ILMATI Construcciones"
   },
   description:
-    "✅ Especialistas en reformas integrales, instalación de pladur y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia y 500 proyectos realizados. Presupuesto gratuito y garantía de calidad.",
+     "Especialistas en reformas integrales, pladur y trasteros en Madrid, Guadalajara y España. 15 años de experiencia y presupuesto gratuito."
+,
   keywords: [
     "reformas integrales Madrid",
     "instalación pladur Guadalajara",
