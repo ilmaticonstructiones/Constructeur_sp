@@ -1,17 +1,18 @@
-const { SitemapStream, streamToPromise } = require('sitemap');
-const { Readable } = require('stream');
+import { MetadataRoute } from "next";
 
-export default async function generateSitemap() {
-  const links = [
-    { url: '/', changefreq: 'weekly', priority: 1.0 },
-    { url: '/pintura-reformas-spain', changefreq: 'weekly', priority: 0.9 },
-    { url: '/trasteros-pladur-spain', changefreq: 'weekly', priority: 0.9 },
-    { url: '/blog', changefreq: 'daily', priority: 0.8 },
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: "https://trasterosypladur.es",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1.0,
+    },
+    {
+      url: "https://trasterosypladur.es/servicios",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
-
-  const stream = new SitemapStream({ hostname: 'https://www.trasterosypladur.es' });
-  
-  return streamToPromise(Readable.from(links).pipe(stream)).then((data: Buffer) =>
-    data.toString()
-  );
 }
