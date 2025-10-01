@@ -6,7 +6,7 @@ export function usePerformance() {
     // Monitor Core Web Vitals
     const observer = new PerformanceObserver((list) => {
       list.getEntries().forEach((entry) => {
-        console.log(`${entry.name}: ${entry.value}`)
+        console.log(`${entry.name}: ${entry}`)
       })
     })
 

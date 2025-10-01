@@ -11,7 +11,7 @@ export default async function generateSitemap() {
 
   const stream = new SitemapStream({ hostname: 'https://www.trasterosypladur.es' });
   
-  return streamToPromise(Readable.from(links).pipe(stream)).then((data) =>
+  return streamToPromise(Readable.from(links).pipe(stream)).then((data: Buffer) =>
     data.toString()
   );
 }

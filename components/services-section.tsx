@@ -32,12 +32,12 @@ export function ServicesSection() {
   const [isImagesPaused, setIsImagesPaused] = useState(false)
 
   // Mock translation function for demo
-  const t = (key) => {
-    const translations = {
+  const t = (key: string) => {
+    const translations: { [key: string]: string } = {
       "services.title": "Nuestros Servicios",
       "services.subtitle": "Profesionales cualificados en todas las áreas"
     }
-    return translations[key] || key
+    return translations[key]
   }
 
   const services = [
@@ -187,8 +187,8 @@ export function ServicesSection() {
   }
 
   // Handle image load error
-  const handleImageError = (e) => {
-    console.error('Image failed to load:', e.target.src)
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    console.error('Image failed to load:', (e.target as HTMLImageElement).src)
     // You could set a fallback image here
   }
 
