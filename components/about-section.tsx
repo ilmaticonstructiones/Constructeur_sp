@@ -79,14 +79,10 @@ export function AboutSection() {
 
           {/* Imagen */}
           <div className="relative">
-            <OptimizedImage
+            <img 
               src="/professional-construction-team-working-on-home-ren.png"
               alt="Equipo profesional de construcción, reformas y pladur en Guadalajara, España"
               className="rounded-lg shadow-lg w-full h-auto"
-              containerClassName="rounded-lg shadow-lg"
-              imageClassName="w-full h-auto object-cover rounded-lg"
-              loadingClassName="rounded-lg"
-              priority={false}
             />
             <Card className="absolute -bottom-6 -left-6 bg-card border-border shadow-lg">
               <CardContent className="p-6">
