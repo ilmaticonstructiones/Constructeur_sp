@@ -10,7 +10,7 @@ export const translations = {
     },
     // Hero Section
     hero: {
-      title: "Fabricación e instalación de trasteros de Pladur a medida",
+      title: "Fabricación e instalación de trasteros a medida",
       subtitle:
         "Empresa de construcción y reformas integrales: obra civil, trasteros, pintura profesional y rehabilitación. Presupuesto gratis y sin compromiso",
       phone: "Llamar Ahora",
