@@ -102,14 +102,14 @@ export function HeroSection() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-              Fabricación de Trasteros en Pladur y Metal – Reformas y Almacenamiento Profesional
+              Fabricación de Trasteros y Metal – Reformas y Almacenamiento Profesional
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Before Image */}
               <div className="relative overflow-hidden rounded-lg shadow-lg md:order-2">
                 <img
                   src="/hero1.jpg"
-                  alt="Espacio vacío antes de la construcción de trasteros en pladur y metal"
+                  alt="Espacio vacío antes de la construcción de trasteros y metal"
                   className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -118,7 +118,7 @@ export function HeroSection() {
               <div className="relative overflow-hidden rounded-lg shadow-lg md:order-1">
                 <img
                   src="/hero2.jpg"
-                  alt="Trasteros terminados en pladur y metal listos para usar"
+                  alt="Trasteros terminados y metal listos para usar"
                   className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -126,7 +126,7 @@ export function HeroSection() {
             
             {/* Description Text */}
             <p className="mt-8 text-lg text-muted-foreground text-center max-w-3xl mx-auto">
-              Empresa de construcción y reformas integrales: obra civil, trasteros, pintura profesional y rehabilitación. Presupuesto gratis y sin compromiso.
+              Montaje de trasteros, instalación y fabricación de trasteros, empresa de montaje de trasteros, trasteros modulares, montaje de trasteros en Madrid y Alcalá de Henares, trasteros metálicos, self storage, trasteros llave en mano, montaje de trasteros en España.
             </p>
           </div>
         </div>

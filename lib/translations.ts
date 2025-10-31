@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       title: "Fabricación e instalación de trasteros a medida",
       subtitle:
-        "Empresa de construcción y reformas integrales: obra civil, trasteros, pintura profesional y rehabilitación. Presupuesto gratis y sin compromiso",
+        "Montaje de trasteros, instalación y fabricación de trasteros, empresa de montaje de trasteros, trasteros modulares, montaje de trasteros en Madrid y Alcalá de Henares, trasteros metálicos, self storage, trasteros llave en mano, montaje de trasteros en España.",
       phone: "Llamar Ahora",
     },
     // Services
