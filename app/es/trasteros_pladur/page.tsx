@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function Trasteroscartón-yeso() {
+export default function Trasteroscartónyeso() {
   return (
     <>
       <Head>
