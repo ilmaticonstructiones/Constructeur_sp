@@ -60,8 +60,8 @@ export default function Blog() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Guía Completa: Trasteros, Pladur, Pintura y Reformas",
-    "description": "Información especializada sobre trasteros, pladur, pintura y servicios de reformas en España",
+    "name": "Guía Completa: Trasteros, cartón-yeso, Pintura y Reformas",
+    "description": "Información especializada sobre trasteros, cartón-yeso, pintura y servicios de reformas en España",
     "publisher": {
       "@type": "Organization",
       "name": "Tu Empresa",
@@ -78,10 +78,10 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>Blog Especializado: Trasteros, Pladur, Pintura y Reformas | Guía 2024</title>
+        <title>Blog Especializado: Trasteros, cartón-yeso, Pintura y Reformas | Guía 2024</title>
         <meta 
           name="description" 
-          content="Guía completa y actualizada 2024 sobre trasteros, instalación de pladur, servicios de pintura y reformas integrales. Expertos en soluciones de almacenamiento y mejora del hogar." 
+          content="Guía completa y actualizada 2024 sobre trasteros, instalación de cartón-yeso, servicios de pintura y reformas integrales. Expertos en soluciones de almacenamiento y mejora del hogar." 
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -90,8 +90,8 @@ export default function Blog() {
         <link rel="canonical" href="https://tudominio.com/blog" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Blog Especializado: Trasteros, Pladur, Pintura y Reformas" />
-        <meta property="og:description" content="Guía completa 2024 sobre trasteros, pladur, pintura y reformas. Soluciones profesionales para tu hogar." />
+        <meta property="og:title" content="Blog Especializado: Trasteros, cartón-yeso, Pintura y Reformas" />
+        <meta property="og:description" content="Guía completa 2024 sobre trasteros, cartón-yeso, pintura y reformas. Soluciones profesionales para tu hogar." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tudominio.com/blog" />
         <meta property="og:image" content="https://tudominio.com/" />
@@ -99,7 +99,7 @@ export default function Blog() {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Blog Especializado: Trasteros, Pladur, Pintura y Reformas" />
+        <meta name="twitter:title" content="Blog Especializado: Trasteros, cartón-yeso, Pintura y Reformas" />
         <meta name="twitter:description" content="Guía completa 2024 sobre servicios de reformas y almacenamiento" />
         <meta name="twitter:image" content="https://tudominio.com/twitter-image.jpg" />
         
@@ -132,7 +132,7 @@ export default function Blog() {
         <section aria-labelledby="main-heading" className="bg-orange-500 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 id="main-heading" className="text-4xl md:text-5xl font-bold mb-4">
-              Guía Completa: Trasteros, Pladur, Pintura y Reformas 2024
+              Guía Completa: Trasteros, cartón-yeso, Pintura y Reformas 2024
             </h1>
             <p className="text-xl text-orange-50 mb-8">
               Información especializada y actualizada sobre soluciones de almacenamiento y mejora del hogar
@@ -209,11 +209,11 @@ export default function Blog() {
             </div>
             <div itemScope itemType="https://schema.org/Question">
               <h3 itemProp="name" className="text-lg font-semibold text-gray-900 mb-2">
-                ¿Qué ventajas tiene el pladur frente a otros materiales?
+                ¿Qué ventajas tiene el cartón-yeso frente a otros materiales?
               </h3>
               <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
                 <p itemProp="text" className="text-gray-600">
-                  El pladur ofrece rapidez de instalación, versatilidad, aislamiento acústico y térmico, y mayor limpieza en obra.
+                  El cartón-yeso ofrece rapidez de instalación, versatilidad, aislamiento acústico y térmico, y mayor limpieza en obra.
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function Blog() {
               ¿Preparado para Tu Proyecto de Reformas?
             </h2>
             <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-              Obtén un presupuesto personalizado sin compromiso con nuestros expertos en trasteros, pladur, pintura y reformas integrales.
+              Obtén un presupuesto personalizado sin compromiso con nuestros expertos en trasteros, cartón-yeso, pintura y reformas integrales.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link

@@ -12,7 +12,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   "name": "Ilmaticonstrucciones - Reformas Integrales",
   "description": "Reformas integrales de viviendas: diseño, ejecución y entrega llave en mano en Guadalajara y Madrid.",
-  "url": "https://www.trasterosypladur.es/reformas-integrales",
+  "url": "https://www.trasterosyreformas.com/reformas-integrales",
   "telephone": "+34643516352",
   "email": "ilmaticonstrucciones@gmail.com",
   "address": {
@@ -77,7 +77,7 @@ export default function ReformasIntegrales() {
         <title>Reformas Integrales en Guadalajara | Ilmaticonstrucciones</title>
         <meta name="description" content="Reformas integrales llave en mano en Guadalajara y Madrid. Gestión de proyectos, materiales y equipos profesionales." />
         <meta name="keywords" content="reformas integrales Guadalajara, reforma llave en mano, reforma vivienda Madrid" />
-        <link rel="canonical" href="https://www.trasterosypladur.es/reformas-integrales" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/reformas-integrales" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />

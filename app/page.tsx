@@ -12,10 +12,10 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Empresa especializada en construcción, reformas, pladur y trasteros en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
-    "url": "https://www.trasterosypladur.es/",
+    "description": "Empresa especializada en construcción, reformas, cartón-yeso y trasteros en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
+    "url": "https://www.trasterosyreformas.com/",
     "telephone": "+34 643 516 352",
-    "email": "contacto@trasterosypladur.es",
+    "email": "contacto@trasterosyreformas.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "C. Occidente",
@@ -31,8 +31,8 @@ export default function HomePage() {
     },
     "openingHours": "Mo-Fr 08:00-18:00",
     "priceRange": "€€",
-    "image": "https://www.trasterosypladur.es/ilmati-logo.png",
-    "logo": "https://www.trasterosypladur.es/ilmati-logo.png",
+    "image": "https://www.trasterosyreformas.com/ilmati-logo.png",
+    "logo": "https://www.trasterosyreformas.com/ilmati-logo.png",
     "sameAs": [
       "https://www.facebook.com/ilmaticonstrucciones",
       "https://www.instagram.com/ilmaticonstrucciones",
@@ -51,8 +51,8 @@ export default function HomePage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Pladur",
-            "description": "Instalación profesional de pladur para interiores, techos y tabiques, con acabados de alta calidad."
+            "name": "cartón-yeso",
+            "description": "Instalación profesional de cartón-yeso para interiores, techos y tabiques, con acabados de alta calidad."
           }
         },
         {
@@ -140,10 +140,10 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Professional company specialized in construction, renovations, plasterboard (pladur), and trasteros across Spain. Over 15 years of experience and more than 500 successful projects.",
-    "url": "https://www.trasterosypladur.es",
+    "description": "Professional company specialized in construction, renovations, plasterboard (cartón-yeso), and trasteros across Spain. Over 15 years of experience and more than 500 successful projects.",
+    "url": "https://www.trasterosyreformas.com",
     "telephone": "+34 643 516 352",
-    "email": "contact@trasterosypladur.es",
+    "email": "contact@trasterosyreformas.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "C. Occidente",
@@ -159,8 +159,8 @@ export default function HomePage() {
     },
     "openingHours": "Mo-Fr 08:00-18:00",
     "priceRange": "€€",
-    "image": "https://www.trasterosypladur.es/ilmati-logo.png",
-    "logo": "https://www.trasterosypladur.es/ilmati-logo.png",
+    "image": "https://www.trasterosyreformas.com/ilmati-logo.png",
+    "logo": "https://www.trasterosyreformas.com/ilmati-logo.png",
     "sameAs": [
       "https://www.facebook.com/ilmaticonstrucciones",
       "https://www.instagram.com/ilmaticonstrucciones",
@@ -175,7 +175,7 @@ export default function HomePage() {
       "@type": "OfferCatalog",
       "name": "Construction and Renovation Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plasterboard (Pladur)", "description": "Professional plasterboard installation for interiors, ceilings, and partitions with high-quality finishes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plasterboard (cartón-yeso)", "description": "Professional plasterboard installation for interiors, ceilings, and partitions with high-quality finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "trasteros", "description": "Specialized trasteros solutions with durable and aesthetic finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Renovation", "description": "Modern kitchen designs with premium materials and expert installation." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Complete bathroom transformations with contemporary fixtures and finishes." } },

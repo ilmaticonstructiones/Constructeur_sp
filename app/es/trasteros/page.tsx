@@ -12,7 +12,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   "name": "Ilmaticonstrucciones - Trasteros y Almacenaje",
   "description": "Soluciones de trasteros, armarios empotrados y optimización de espacio en viviendas en Guadalajara y Madrid.",
-  "url": "https://www.trasterosypladur.es/trasteros",
+  "url": "https://www.trasterosyreformas.com/trasteros",
   "telephone": "+34643516352",
   "email": "ilmaticonstrucciones@gmail.com",
   "address": {
@@ -77,7 +77,7 @@ export default function Trasteros() {
         <title>Trasteros y Armarios Empotrados en Guadalajara | Ilmaticonstrucciones</title>
         <meta name="description" content="Trasteros, armarios empotrados y soluciones de almacenaje en Guadalajara y Madrid. Optimiza tu espacio con diseño profesional." />
         <meta name="keywords" content="trasteros Guadalajara, trasteros baratos, armarios empotrados, almacenaje casa" />
-        <link rel="canonical" href="https://www.trasterosypladur.es/trasteros" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/trasteros" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />

@@ -12,7 +12,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   "name": "Ilmaticonstrucciones - Pintura Profesional",
   "description": "Pintura interior y exterior en Guadalajara y Madrid: acabados duraderos, pintura antihumedad y lacado de muebles.",
-  "url": "https://www.trasterosypladur.es/pintura",
+  "url": "https://www.trasterosyreformas.com/pintura",
   "telephone": "+34643516352",
   "email": "ilmaticonstrucciones@gmail.com",
   "address": {
@@ -77,7 +77,7 @@ export default function Pintura() {
         <title>Pintura Profesional en Guadalajara | Ilmaticonstrucciones</title>
         <meta name="description" content="Pintura interior y exterior en Guadalajara y Madrid. Servicios profesionales, pintura antihumedad y lacado de muebles. Presupuesto rápido." />
         <meta name="keywords" content="pintura Guadalajara, pintura interior, lacado puertas, pintura exterior Madrid" />
-        <link rel="canonical" href="https://www.trasterosypladur.es/pintura" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/pintura" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />

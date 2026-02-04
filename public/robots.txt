@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://trasterosypladur.es/sitemap.xml
+Sitemap: https://trasterosyreformas.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

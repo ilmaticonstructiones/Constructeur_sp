@@ -12,7 +12,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   "name": "Ilmaticonstrucciones - Reformas Generales",
   "description": "Reformas generales en Guadalajara y Madrid: cocinas, baños, reformas integrales y pequeñas obras con presupuesto claro.",
-  "url": "https://www.trasterosypladur.es/reformas-generales",
+  "url": "https://www.trasterosyreformas.com/reformas-generales",
   "telephone": "+34643516352",
   "email": "ilmaticonstrucciones@gmail.com",
   "address": {
@@ -78,10 +78,10 @@ export default function ReformasGenerales() {
         <title>Reformas Generales en Guadalajara | Ilmaticonstrucciones</title>
         <meta name="description" content="Reformas generales en Guadalajara y Madrid: cocinas, baños y viviendas. Presupuestos claros, profesionales y garantía en el trabajo." />
         <meta name="keywords" content="reformas Guadalajara, reformas generales, reforma piso Guadalajara, reformas Madrid" />
-        <link rel="canonical" href="https://www.trasterosypladur.es/reformas-generales" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/reformas-generales" />
         <meta property="og:title" content="Reformas Generales en Guadalajara | Ilmaticonstrucciones" />
         <meta property="og:description" content="Transformamos pisos y casas en Guadalajara y Madrid. Especialistas en cocinas, baños y reformas integrales." />
-        <meta property="og:url" content="https://www.trasterosypladur.es/reformas-generales" />
+        <meta property="og:url" content="https://www.trasterosyreformas.com/reformas-generales" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />

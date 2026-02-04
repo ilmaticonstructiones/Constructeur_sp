@@ -33,7 +33,7 @@ export default function PinturaReformas() {
     "@type": "LocalBusiness",
     "name": "Ilmaticonstrucciones - Pintura y Reformas",
     "description": "Servicios profesionales de pintura y reformas generales en Guadalajara, Madrid y toda España",
-    "url": "https://www.trasterosypladur.es/pintura-reformas-spain",
+    "url": "https://www.trasterosyreformas.com/pintura-reformas-spain",
     "telephone": "+34643516352",
     "email": "ilmaticonstrucciones@gmail.com",
     "address": {
@@ -107,19 +107,19 @@ export default function PinturaReformas() {
           content="✅ Especialistas en pintura interior/exterior y reformas integrales en Guadalajara, Madrid y España. Presupuesto gratuito y trabajos garantizados."
         />
         <meta name="keywords" content="pintura Guadalajara, reformas Madrid, pintura interior Madrid, reformas integrales España, renovación pisos" />
-        <link rel="canonical" href="https://www.trasterosypladur.es/pintura-reformas-spain" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/pintura-reformas-spain" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Pintura y Reformas Profesionales en Guadalajara y Madrid" />
         <meta property="og:description" content="Especialistas en pintura interior/exterior y reformas integrales. Más de 10 años transformando espacios en España." />
-        <meta property="og:url" content="https://www.trasterosypladur.es/pintura-reformas-spain" />
-        <meta property="og:image" content="https://www.trasterosypladur.es/og-pintura-reformas.jpg" />
+        <meta property="og:url" content="https://www.trasterosyreformas.com/pintura-reformas-spain" />
+        <meta property="og:image" content="https://www.trasterosyreformas.com/og-pintura-reformas.jpg" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pintura y Reformas Profesionales | Ilmaticonstrucciones" />
         <meta name="twitter:description" content="Especialistas en pintura y reformas en Guadalajara, Madrid y España" />
-        <meta name="twitter:image" content="https://www.trasterosypladur.es/twitter-pintura-reformas.jpg" />
+        <meta name="twitter:image" content="https://www.trasterosyreformas.com/twitter-pintura-reformas.jpg" />
 
         {/* Critical CSS */}
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />

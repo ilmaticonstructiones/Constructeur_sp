@@ -327741,7 +327741,7 @@ sitemap.ts
 /workspaces/Constructeur_sp/app/es:
 blog
 pintura_reformas
-trasteros_pladur
+trasterosyreformas
 
 /workspaces/Constructeur_sp/app/es/blog:
 page.tsx
@@ -327749,7 +327749,7 @@ page.tsx
 /workspaces/Constructeur_sp/app/es/pintura_reformas:
 page.tsx
 
-/workspaces/Constructeur_sp/app/es/trasteros_pladur:
+/workspaces/Constructeur_sp/app/es/trasterosyreformas:
 page.tsx
 
 /workspaces/Constructeur_sp/components:

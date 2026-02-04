@@ -16,29 +16,29 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://www.trasterosypladur.es",
+    canonical: "https://www.trasterosyreformas.com",
     languages: {
-      "es-ES": "https://www.trasterosypladur.es/",
+      "es-ES": "https://www.trasterosyreformas.com/",
     },
   },
-  metadataBase: new URL("https://www.trasterosypladur.es"),
+  metadataBase: new URL("https://www.trasterosyreformas.com"),
   title: {
-    default: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
+    default: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
     template: "%s | ILMATI Construcciones"
   },
   description:
-     "Especialistas en reformas integrales, pladur y trasteros en Madrid, Guadalajara y España. 15 años de experiencia y presupuesto gratuito."
+     "Especialistas en reformas integrales, cartón-yeso y trasteros en Madrid, Guadalajara y España. 15 años de experiencia y presupuesto gratuito."
 ,
   keywords: [
     "reformas integrales Madrid",
-    "instalación pladur Guadalajara",
+    "instalación cartón-yeso Guadalajara",
     "trasteros a medida España",
     "construcción profesional",
     "reformas de baños Madrid",
     "reformas de cocinas Guadalajara",
-    "pladur acústico",
-    "falsos techos pladur",
-    "tabiques pladur",
+    "cartón-yeso acústico",
+    "falsos techos cartón-yeso",
+    "tabiques cartón-yeso",
     "empresa construcción España",
     "ILMATI Construcciones",
     "contratistas profesionales Madrid",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "fontanería reformas",
     "electricidad obras",
   ].join(", "),
-  authors: [{ name: "ILMATI Construcciones", url: "https://www.trasterosypladur.es/" }],
+  authors: [{ name: "ILMATI Construcciones", url: "https://www.trasterosyreformas.com/" }],
   creator: "ILMATI Construcciones",
   publisher: "ILMATI Construcciones",
   robots: {
@@ -66,16 +66,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://www.trasterosypladur.es/",
-    siteName: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
-    title: "ILMATI Construcciones - Especialistas en Reformas, Pladur y Trasteros",
-    description: "Expertos en reformas integrales, instalación de pladur y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia.",
+    url: "https://www.trasterosyreformas.com/",
+    siteName: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
+    title: "ILMATI Construcciones - Especialistas en Reformas, cartón-yeso y Trasteros",
+    description: "Expertos en reformas integrales, instalación de cartón-yeso y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia.",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "ILMATI Construcciones - Especialistas en reformas, pladur y trasteros",
+        alt: "ILMATI Construcciones - Especialistas en reformas, cartón-yeso y trasteros",
         type: "image/jpeg",
       },
     ],
@@ -84,8 +84,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ILMATI_Construcciones",
     creator: "@ILMATI_Construcciones",
-    title: "ILMATI Construcciones - Reformas, Pladur y Trasteros",
-    description: "Especialistas en reformas integrales, instalación de pladur y trasteros a medida en España",
+    title: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
+    description: "Especialistas en reformas integrales, instalación de cartón-yeso y trasteros a medida en España",
     images: ["/twitter-image.jpg"],
   },
   category: "Construcción y Reformas",
@@ -98,11 +98,11 @@ export const metadata: Metadata = {
 const organizationStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://www.trasterosypladur.es/#organization",
+  "@id": "https://www.trasterosyreformas.com/#organization",
   name: "ILMATI Construcciones",
-  url: "https://www.trasterosypladur.es",
-  logo: "https://www.trasterosypladur.es/logo.png",
-  description: "Empresa especializada en reformas integrales, instalación de pladur y construcción de trasteros a medida en España",
+  url: "https://www.trasterosyreformas.com",
+  logo: "https://www.trasterosyreformas.com/logo.png",
+  description: "Empresa especializada en reformas integrales, instalación de cartón-yeso y construcción de trasteros a medida en España",
   address: {
     "@type": "PostalAddress",
     streetAddress: "C. Occidente",
@@ -136,16 +136,16 @@ const organizationStructuredData = {
 const websiteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://www.trasterosypladur.es/#website",
-  url: "https://www.trasterosypladur.es",
+  "@id": "https://www.trasterosyreformas.com/#website",
+  url: "https://www.trasterosyreformas.com",
   name: "ILMATI Construcciones",
-  description: "Especialistas en reformas, pladur y trasteros en España",
+  description: "Especialistas en reformas, cartón-yeso y trasteros en España",
   publisher: {
-    "@id": "https://www.trasterosypladur.es/#organization"
+    "@id": "https://www.trasterosyreformas.com/#organization"
   },
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://www.trasterosypladur.es/search?q={search_term_string}",
+    target: "https://www.trasterosyreformas.com/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -298,9 +298,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://www.trasterosypladur.es/#local-business",
+              "@id": "https://www.trasterosyreformas.com/#local-business",
               name: "ILMATI Construcciones",
-              url: "https://www.trasterosypladur.es",
+              url: "https://www.trasterosyreformas.com",
               telephone: "+34-643-516-352",
               email: "ilmaticonstrucciones@gmail.com",
               address: {
@@ -319,14 +319,14 @@ export default function RootLayout({
               areaServed: ["Madrid", "Guadalajara", "Castilla-La Mancha", "Comunidad de Madrid"],
               serviceType: [
                 "Reformas integrales",
-                "Instalación de pladur", 
+                "Instalación de cartón-yeso", 
                 "Construcción de trasteros",
                 "Pintura profesional",
                 "Fontanería y electricidad"
               ],
               openingHours: "Mo-Su 07:00-22:00",
               priceRange: "€€",
-              description: "Empresa especializada en reformas integrales, instalación de pladur y construcción de trasteros a medida en España",
+              description: "Empresa especializada en reformas integrales, instalación de cartón-yeso y construcción de trasteros a medida en España",
             }),
           }}
         />
