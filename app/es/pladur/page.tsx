@@ -1,4 +1,4 @@
-// cartón-yeso.tsx
+// cartón_yeso.tsx
 'use client'
 
 import Head from 'next/head';
@@ -10,9 +10,9 @@ const criticalCSS = `...`;
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Ilmaticonstrucciones - cartón-yeso y Tabiques",
-  "description": "Instalación y soluciones cartón-yeso en Guadalajara y Madrid: tabiques, techos desmontables y aislamiento acústico.",
-  "url": "https://www.trasterosyreformas.com/cartón-yeso",
+  "name": "Ilmaticonstrucciones - cartón_yeso y Tabiques",
+  "description": "Instalación y soluciones cartón_yeso en Guadalajara y Madrid: tabiques, techos desmontables y aislamiento acústico.",
+  "url": "https://www.trasterosyreformas.com/cartón_yeso",
   "telephone": "+34643516352",
   "email": "ilmaticonstrucciones@gmail.com",
   "address": {
@@ -33,24 +33,24 @@ const faqStructuredData = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué es cartón-yeso y para qué sirve?",
+      "name": "¿Qué es cartón_yeso y para qué sirve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El cartón-yeso es una placa de yeso laminado que se usa para crear tabiques, falsos techos y acabados rápidos con buen aislamiento."
+        "text": "El cartón_yeso es una placa de yeso laminado que se usa para crear tabiques, falsos techos y acabados rápidos con buen aislamiento."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Cuánto tiempo se tarda en instalar un falso techo de cartón-yeso?",
+      "name": "¿Cuánto tiempo se tarda en instalar un falso techo de cartón_yeso?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un falso techo de cartón-yeso en una habitación media suele instalarse en 1-2 días, dependiendo del acabado y el acceso."
+        "text": "Un falso techo de cartón_yeso en una habitación media suele instalarse en 1-2 días, dependiendo del acabado y el acceso."
       }
     }
   ]
 };
 
-export default function cartón-yeso() {
+export default function cartón_yeso() {
   const [loading, setLoading] = useState(false);
 
   const externalResources = [
@@ -74,10 +74,10 @@ export default function cartón-yeso() {
   return (
     <>
       <Head>
-        <title>cartón-yeso en Guadalajara y Madrid | Ilmaticonstrucciones</title>
-        <meta name="description" content="Instalación de cartón-yeso: tabiques, techos y soluciones para reformas en Guadalajara y Madrid. Presupuesto rápido y garantía." />
-        <meta name="keywords" content="cartón-yeso Guadalajara, cartón-yeso Madrid, falso techo cartón-yeso, tabiques cartón-yeso" />
-        <link rel="canonical" href="https://www.trasterosyreformas.com/cartón-yeso" />
+        <title>cartón_yeso en Guadalajara y Madrid | Ilmaticonstrucciones</title>
+        <meta name="description" content="Instalación de cartón_yeso: tabiques, techos y soluciones para reformas en Guadalajara y Madrid. Presupuesto rápido y garantía." />
+        <meta name="keywords" content="cartón_yeso Guadalajara, cartón_yeso Madrid, falso techo cartón_yeso, tabiques cartón_yeso" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/cartón_yeso" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }} />
       </Head>
@@ -86,8 +86,8 @@ export default function cartón-yeso() {
 
       <main className="min-h-screen bg-white">
         <section className="py-20 px-4 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">cartón-yeso: Tabiques, Techos y Aislamiento</h1>
-          <p className="mb-6">Trabajamos con soluciones cartón-yeso para reformas en Guadalajara y la Comunidad de Madrid. Rapidez, limpieza y acabados profesionales.</p>
+          <h1 className="text-4xl font-bold mb-4">cartón_yeso: Tabiques, Techos y Aislamiento</h1>
+          <p className="mb-6">Trabajamos con soluciones cartón_yeso para reformas en Guadalajara y la Comunidad de Madrid. Rapidez, limpieza y acabados profesionales.</p>
         </section>
 
         <section className="px-4 max-w-4xl mx-auto">
@@ -95,7 +95,7 @@ export default function cartón-yeso() {
           <ul className="mb-6">
             <li>Tabiques interiores para redistribución.</li>
             <li>Falsos techos para ocultar instalaciones.</li>
-            <li>Aislamiento térmico y acústico con cartón-yeso y lana mineral.</li>
+            <li>Aislamiento térmico y acústico con cartón_yeso y lana mineral.</li>
           </ul>
 
           <div className="bg-gray-50 rounded-xl p-6">

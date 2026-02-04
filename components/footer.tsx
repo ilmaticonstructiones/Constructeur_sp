@@ -8,7 +8,7 @@ export function Footer() {
   const { t } = useTranslation()
 
   const services = [
-    "cartón-yeso y tabiquería seca",
+    "cartón_yeso y tabiquería seca",
     "trasteros y sistemas de seguridad",
     "Reformas de cocinas",
     "Reformas de baños",
@@ -26,11 +26,11 @@ export function Footer() {
   ]
 
   const resources = [
-    { name: "Trasteros y cartón-yeso", href: "/trasterosyreformas" },
+    { name: "Trasteros y cartón_yeso", href: "/trasterosyreformas" },
     { name: "Pintura y Reformas", href: "/pintura_reformas" },
     { name: "Blog y Guías", href: "/blog" },
     { name: "pintura", href: "/pintura" },
-    { name: "cartón-yeso", href: "/cartón-yeso" },
+    { name: "cartón_yeso", href: "/cartón_yeso" },
     { name: "reformas integrales", href: "/reformasIntegrales" },
     { name: "reformas generales", href: "/reformasGenerales" },
     { name: "trasteros", href: "/trasteros" },
@@ -143,7 +143,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-6 pt-4 text-center">
           <p className="text-primary-foreground/80 text-sm">
-            © 2025 ILMATI Construcciones. {t("footer.rights")} | Expertos en cartón-yeso y trasteros en España
+            © 2025 ILMATI Construcciones. {t("footer.rights")} | Expertos en cartón_yeso y trasteros en España
           </p>
         </div>
       </div>

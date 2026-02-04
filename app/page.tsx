@@ -12,7 +12,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Empresa especializada en construcción, reformas, cartón-yeso y trasteros en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
+    "description": "Empresa especializada en construcción, reformas, cartón_yeso y trasteros en toda España. Más de 15 años de experiencia y 500+ proyectos completados con éxito.",
     "url": "https://www.trasterosyreformas.com/",
     "telephone": "+34 643 516 352",
     "email": "contacto@trasterosyreformas.com",
@@ -51,8 +51,8 @@ export default function HomePage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "cartón-yeso",
-            "description": "Instalación profesional de cartón-yeso para interiores, techos y tabiques, con acabados de alta calidad."
+            "name": "cartón_yeso",
+            "description": "Instalación profesional de cartón_yeso para interiores, techos y tabiques, con acabados de alta calidad."
           }
         },
         {
@@ -140,7 +140,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ILMATI Construcciones",
-    "description": "Professional company specialized in construction, renovations, plasterboard (cartón-yeso), and trasteros across Spain. Over 15 years of experience and more than 500 successful projects.",
+    "description": "Professional company specialized in construction, renovations, plasterboard (cartón_yeso), and trasteros across Spain. Over 15 years of experience and more than 500 successful projects.",
     "url": "https://www.trasterosyreformas.com",
     "telephone": "+34 643 516 352",
     "email": "contact@trasterosyreformas.com",
@@ -175,7 +175,7 @@ export default function HomePage() {
       "@type": "OfferCatalog",
       "name": "Construction and Renovation Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plasterboard (cartón-yeso)", "description": "Professional plasterboard installation for interiors, ceilings, and partitions with high-quality finishes." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plasterboard (cartón_yeso)", "description": "Professional plasterboard installation for interiors, ceilings, and partitions with high-quality finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "trasteros", "description": "Specialized trasteros solutions with durable and aesthetic finishes." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Renovation", "description": "Modern kitchen designs with premium materials and expert installation." } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Complete bathroom transformations with contemporary fixtures and finishes." } },

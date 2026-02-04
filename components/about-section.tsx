@@ -14,7 +14,7 @@ export function AboutSection() {
     {
       icon: Award,
       number: "500+",
-      label: "Proyectos de Reformas y cartón-yeso Realizados",
+      label: "Proyectos de Reformas y cartón_yeso Realizados",
     },
     {
       icon: Users,
@@ -45,7 +45,7 @@ export function AboutSection() {
             <p className="text-muted-foreground leading-relaxed mb-8 text-lg">
               En <strong>ILMATI Construcciones</strong> somos especialistas en{" "}
               <strong>
-                reformas, instalación de cartón-yeso, trasteros a medida y obra civil
+                reformas, instalación de cartón_yeso, trasteros a medida y obra civil
               </strong>{" "}
               en Guadalajara y toda España. Con más de 15 años de experiencia y
               más de 500 proyectos finalizados con éxito, ofrecemos{" "}
@@ -81,7 +81,7 @@ export function AboutSection() {
           <div className="relative">
             <img 
               src="/professional-construction-team-working-on-home-ren.png"
-              alt="Equipo profesional de construcción, reformas y cartón-yeso en Guadalajara, España"
+              alt="Equipo profesional de construcción, reformas y cartón_yeso en Guadalajara, España"
               className="rounded-lg shadow-lg w-full h-auto"
             />
             <Card className="absolute -bottom-6 -left-6 bg-card border-border shadow-lg">
@@ -117,7 +117,7 @@ export function AboutSection() {
               addressCountry: "ES",
             },
             description:
-              "ILMATI Construcciones - expertos en construcción, reformas integrales, cartón-yeso y trasteros a medida en Guadalajara y toda España.",
+              "ILMATI Construcciones - expertos en construcción, reformas integrales, cartón_yeso y trasteros a medida en Guadalajara y toda España.",
           }),
         }}
       />

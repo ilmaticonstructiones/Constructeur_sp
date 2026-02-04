@@ -5,7 +5,7 @@ import Script from "next/script"
 export const WhatsAppWidget = () => {
   const handleClick = () => {
     const message =
-      "Hola, estoy interesado en sus servicios de construcción: cartón-yeso, trasteros y reformas integrales."
+      "Hola, estoy interesado en sus servicios de construcción: cartón_yeso, trasteros y reformas integrales."
     const url = `https://wa.me/34643516352?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }
@@ -17,7 +17,7 @@ export const WhatsAppWidget = () => {
         onClick={handleClick}
         className="fixed bottom-4 right-4 md:bottom-6 md:right-6 bg-green-500 hover:bg-green-600 text-white p-3 md:p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 group"
         title="Contactar por WhatsApp"
-        aria-label="Abrir chat de WhatsApp para servicios de construcción en cartón-yeso, trasteros y reformas"
+        aria-label="Abrir chat de WhatsApp para servicios de construcción en cartón_yeso, trasteros y reformas"
       >
         {/* WhatsApp Icon */}
         <svg
@@ -48,7 +48,7 @@ export const WhatsAppWidget = () => {
           sameAs: ["https://wa.me/34643516352"],
           areaServed: "España",
           description:
-            "Especialistas en construcción, cartón-yeso, trasteros, reformas integrales, pintura y obra civil. Contacto directo vía WhatsApp.",
+            "Especialistas en construcción, cartón_yeso, trasteros, reformas integrales, pintura y obra civil. Contacto directo vía WhatsApp.",
         })}
       </Script>
     </>

@@ -23,22 +23,22 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://www.trasterosyreformas.com"),
   title: {
-    default: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
+    default: "ILMATI Construcciones - Reformas, cartón_yeso y Trasteros",
     template: "%s | ILMATI Construcciones"
   },
   description:
-     "Especialistas en reformas integrales, cartón-yeso y trasteros en Madrid, Guadalajara y España. 15 años de experiencia y presupuesto gratuito."
+     "Especialistas en reformas integrales, cartón_yeso y trasteros en Madrid, Guadalajara y España. 15 años de experiencia y presupuesto gratuito."
 ,
   keywords: [
     "reformas integrales Madrid",
-    "instalación cartón-yeso Guadalajara",
+    "instalación cartón_yeso Guadalajara",
     "trasteros a medida España",
     "construcción profesional",
     "reformas de baños Madrid",
     "reformas de cocinas Guadalajara",
-    "cartón-yeso acústico",
-    "falsos techos cartón-yeso",
-    "tabiques cartón-yeso",
+    "cartón_yeso acústico",
+    "falsos techos cartón_yeso",
+    "tabiques cartón_yeso",
     "empresa construcción España",
     "ILMATI Construcciones",
     "contratistas profesionales Madrid",
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: "https://www.trasterosyreformas.com/",
-    siteName: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
-    title: "ILMATI Construcciones - Especialistas en Reformas, cartón-yeso y Trasteros",
-    description: "Expertos en reformas integrales, instalación de cartón-yeso y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia.",
+    siteName: "ILMATI Construcciones - Reformas, cartón_yeso y Trasteros",
+    title: "ILMATI Construcciones - Especialistas en Reformas, cartón_yeso y Trasteros",
+    description: "Expertos en reformas integrales, instalación de cartón_yeso y trasteros a medida en Madrid, Guadalajara y toda España. Más de 15 años de experiencia.",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "ILMATI Construcciones - Especialistas en reformas, cartón-yeso y trasteros",
+        alt: "ILMATI Construcciones - Especialistas en reformas, cartón_yeso y trasteros",
         type: "image/jpeg",
       },
     ],
@@ -84,8 +84,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ILMATI_Construcciones",
     creator: "@ILMATI_Construcciones",
-    title: "ILMATI Construcciones - Reformas, cartón-yeso y Trasteros",
-    description: "Especialistas en reformas integrales, instalación de cartón-yeso y trasteros a medida en España",
+    title: "ILMATI Construcciones - Reformas, cartón_yeso y Trasteros",
+    description: "Especialistas en reformas integrales, instalación de cartón_yeso y trasteros a medida en España",
     images: ["/twitter-image.jpg"],
   },
   category: "Construcción y Reformas",
@@ -102,7 +102,7 @@ const organizationStructuredData = {
   name: "ILMATI Construcciones",
   url: "https://www.trasterosyreformas.com",
   logo: "https://www.trasterosyreformas.com/logo.png",
-  description: "Empresa especializada en reformas integrales, instalación de cartón-yeso y construcción de trasteros a medida en España",
+  description: "Empresa especializada en reformas integrales, instalación de cartón_yeso y construcción de trasteros a medida en España",
   address: {
     "@type": "PostalAddress",
     streetAddress: "C. Occidente",
@@ -139,7 +139,7 @@ const websiteStructuredData = {
   "@id": "https://www.trasterosyreformas.com/#website",
   url: "https://www.trasterosyreformas.com",
   name: "ILMATI Construcciones",
-  description: "Especialistas en reformas, cartón-yeso y trasteros en España",
+  description: "Especialistas en reformas, cartón_yeso y trasteros en España",
   publisher: {
     "@id": "https://www.trasterosyreformas.com/#organization"
   },
@@ -319,14 +319,14 @@ export default function RootLayout({
               areaServed: ["Madrid", "Guadalajara", "Castilla-La Mancha", "Comunidad de Madrid"],
               serviceType: [
                 "Reformas integrales",
-                "Instalación de cartón-yeso", 
+                "Instalación de cartón_yeso", 
                 "Construcción de trasteros",
                 "Pintura profesional",
                 "Fontanería y electricidad"
               ],
               openingHours: "Mo-Su 07:00-22:00",
               priceRange: "€€",
-              description: "Empresa especializada en reformas integrales, instalación de cartón-yeso y construcción de trasteros a medida en España",
+              description: "Empresa especializada en reformas integrales, instalación de cartón_yeso y construcción de trasteros a medida en España",
             }),
           }}
         />

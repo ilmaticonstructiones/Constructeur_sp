@@ -4,14 +4,14 @@ export default function Trasteroscartónyeso() {
   return (
     <>
       <Head>
-        <title>Trasteros y cartón-yeso en Guadalajara y Madrid | Ilmaticonstrucciones</title>
+        <title>Trasteros y cartón_yeso en Guadalajara y Madrid | Ilmaticonstrucciones</title>
         <meta
           name="description"
-          content="Ofrecemos trasteros a medida y servicios de cartón-yeso de alta calidad en Guadalajara, Madrid y alrededores. Proyectos rápidos y profesionales."
+          content="Ofrecemos trasteros a medida y servicios de cartón_yeso de alta calidad en Guadalajara, Madrid y alrededores. Proyectos rápidos y profesionales."
         />
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="trasteros Guadalajara, cartón-yeso Madrid, trasteros España, cartón-yeso España, reformas Guadalajara, Ilmaticonstrucciones" />
-        <link rel="canonical" href="https://www.trasterosyreformas.com/trasteros-cartón-yeso-spain" />
+        <meta name="keywords" content="trasteros Guadalajara, cartón_yeso Madrid, trasteros España, cartón_yeso España, reformas Guadalajara, Ilmaticonstrucciones" />
+        <link rel="canonical" href="https://www.trasterosyreformas.com/trasteros-cartón_yeso-spain" />
       </Head>
 
       <main className="min-h-screen bg-white">
@@ -19,7 +19,7 @@ export default function Trasteroscartónyeso() {
         <div className="bg-orange-500 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Trasteros y cartón-yeso Profesionales en España
+              Trasteros y cartón_yeso Profesionales en España
             </h1>
             <p className="text-xl text-orange-50">
               Soluciones personalizadas para tu espacio
@@ -54,11 +54,11 @@ export default function Trasteroscartónyeso() {
           {/* Divider */}
           <div className="border-t border-gray-200 my-16"></div>
 
-          {/* cartón-yeso Section */}
+          {/* cartón_yeso Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Servicios de cartón-yeso</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Servicios de cartón_yeso</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Nuestro equipo profesional instala cartón-yeso para tabiques y falsos techos con acabados modernos y resistentes.  
+              Nuestro equipo profesional instala cartón_yeso para tabiques y falsos techos con acabados modernos y resistentes.  
               Trabajamos de manera rápida y eficiente en toda España, con especial atención a Guadalajara y Madrid.
             </p>
             <div className="grid md:grid-cols-2 gap-6">

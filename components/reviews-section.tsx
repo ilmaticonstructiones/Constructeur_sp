@@ -64,7 +64,7 @@ export function ReviewsSection() {
       rating: 5,
       text: "We hired them for plasterboard walls and ceilings. Excellent finish and professional team.",
       textEs:
-        "Los contratamos para paredes y techos de cartón-yeso. Acabado excelente y equipo muy profesional.",
+        "Los contratamos para paredes y techos de cartón_yeso. Acabado excelente y equipo muy profesional.",
       image: "/blank-profile-picture.webp",
     },
     {

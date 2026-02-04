@@ -59,19 +59,19 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Section 1 - cartón-yeso */}
+      {/* Section 1 - cartón_yeso */}
       <div className="bg-background py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-              Tabiquerías, Techos y Murales en cartón-yeso – Instalación Profesional en España
+              Tabiquerías, Techos y Murales en cartón_yeso – Instalación Profesional en España
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Before Image */}
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src="/hero3.jpg"
-                  alt="Antes de la instalación de techos y murales en cartón-yeso"
+                  alt="Antes de la instalación de techos y murales en cartón_yeso"
                   className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -80,7 +80,7 @@ export function HeroSection() {
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src="/hero4.jpg"
-                  alt="Después de la instalación de techos y murales en cartón-yeso"
+                  alt="Después de la instalación de techos y murales en cartón_yeso"
                   className="w-full h-80 object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -89,7 +89,7 @@ export function HeroSection() {
             {/* Description Text */}
             <div className="mt-8 text-center">
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Realizamos tabiquerías, techos y murales en cartón-yeso en toda España, 
+                Realizamos tabiquerías, techos y murales en cartón_yeso en toda España, 
                 ofreciendo soluciones profesionales y personalizadas en construcción en seco.
               </p>
             </div>
