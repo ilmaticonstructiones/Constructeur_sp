@@ -49,7 +49,7 @@ export function HeroSection() {
               <Button
                 onClick={handlePhoneClick}
                 size="lg"
-                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-8 py-4 text-lg"
+                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-8 py-4 text-lg hover:cursor-pointer"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 {t("hero.phone")}
